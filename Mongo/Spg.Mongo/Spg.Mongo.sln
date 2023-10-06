@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{043543E9-5660-4430-91C5-BEE80B852008}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.FrontEnd", "src\Spg.Mongo.FrontEnd\Spg.Mongo.FrontEnd.csproj", "{5CC7FCF1-60D6-43DA-8AFE-B474E207EBCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.Application", "src\Spg.Mongo.Application\Spg.Mongo.Application.csproj", "{33D29F74-11AD-424D-A031-CF9F19B264C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.Infrastructure", "src\Spg.Mongo.Infrastructure\Spg.Mongo.Infrastructure.csproj", "{3D1D1F9B-3233-4B1E-B26D-F170EB62D422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.DomainModel", "src\Spg.Mongo.DomainModel\Spg.Mongo.DomainModel.csproj", "{CD01B5A0-9B3F-4EEF-B163-58592FA392C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.Repository", "src\Spg.Mongo.Repository\Spg.Mongo.Repository.csproj", "{BF3A6DE2-7B7D-43E1-9E7C-C4FD1D2F9982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{10F5953B-2333-492A-907E-C6B8104F5CAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.FrontEnd.Test", "test\Spg.Mongo.FrontEnd.Test\Spg.Mongo.FrontEnd.Test.csproj", "{F7151F24-5D08-4749-BCC7-60F5CE384C34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.Application.Test", "test\Spg.Mongo.Application.Test\Spg.Mongo.Application.Test.csproj", "{B0182405-3CF6-4AC3-927C-0B24B1967925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.DomainModel.Test", "test\Spg.Mongo.DomainModel.Test\Spg.Mongo.DomainModel.Test.csproj", "{705E069F-98B8-41A8-B59A-8B6D281D08DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spg.Mongo.Repository.Test", "test\Spg.Mongo.Repository.Test\Spg.Mongo.Repository.Test.csproj", "{71F701F3-6263-4C08-9D21-3C5BDD124A36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC7FCF1-60D6-43DA-8AFE-B474E207EBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC7FCF1-60D6-43DA-8AFE-B474E207EBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC7FCF1-60D6-43DA-8AFE-B474E207EBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC7FCF1-60D6-43DA-8AFE-B474E207EBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33D29F74-11AD-424D-A031-CF9F19B264C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D29F74-11AD-424D-A031-CF9F19B264C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D29F74-11AD-424D-A031-CF9F19B264C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D29F74-11AD-424D-A031-CF9F19B264C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1D1F9B-3233-4B1E-B26D-F170EB62D422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1D1F9B-3233-4B1E-B26D-F170EB62D422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1D1F9B-3233-4B1E-B26D-F170EB62D422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1D1F9B-3233-4B1E-B26D-F170EB62D422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD01B5A0-9B3F-4EEF-B163-58592FA392C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD01B5A0-9B3F-4EEF-B163-58592FA392C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD01B5A0-9B3F-4EEF-B163-58592FA392C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD01B5A0-9B3F-4EEF-B163-58592FA392C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF3A6DE2-7B7D-43E1-9E7C-C4FD1D2F9982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF3A6DE2-7B7D-43E1-9E7C-C4FD1D2F9982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF3A6DE2-7B7D-43E1-9E7C-C4FD1D2F9982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF3A6DE2-7B7D-43E1-9E7C-C4FD1D2F9982}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7151F24-5D08-4749-BCC7-60F5CE384C34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7151F24-5D08-4749-BCC7-60F5CE384C34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7151F24-5D08-4749-BCC7-60F5CE384C34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7151F24-5D08-4749-BCC7-60F5CE384C34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0182405-3CF6-4AC3-927C-0B24B1967925}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0182405-3CF6-4AC3-927C-0B24B1967925}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0182405-3CF6-4AC3-927C-0B24B1967925}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0182405-3CF6-4AC3-927C-0B24B1967925}.Release|Any CPU.Build.0 = Release|Any CPU
+		{705E069F-98B8-41A8-B59A-8B6D281D08DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{705E069F-98B8-41A8-B59A-8B6D281D08DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{705E069F-98B8-41A8-B59A-8B6D281D08DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{705E069F-98B8-41A8-B59A-8B6D281D08DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F701F3-6263-4C08-9D21-3C5BDD124A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F701F3-6263-4C08-9D21-3C5BDD124A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F701F3-6263-4C08-9D21-3C5BDD124A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F701F3-6263-4C08-9D21-3C5BDD124A36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5CC7FCF1-60D6-43DA-8AFE-B474E207EBCB} = {043543E9-5660-4430-91C5-BEE80B852008}
+		{33D29F74-11AD-424D-A031-CF9F19B264C7} = {043543E9-5660-4430-91C5-BEE80B852008}
+		{3D1D1F9B-3233-4B1E-B26D-F170EB62D422} = {043543E9-5660-4430-91C5-BEE80B852008}
+		{CD01B5A0-9B3F-4EEF-B163-58592FA392C7} = {043543E9-5660-4430-91C5-BEE80B852008}
+		{BF3A6DE2-7B7D-43E1-9E7C-C4FD1D2F9982} = {043543E9-5660-4430-91C5-BEE80B852008}
+		{F7151F24-5D08-4749-BCC7-60F5CE384C34} = {10F5953B-2333-492A-907E-C6B8104F5CAC}
+		{B0182405-3CF6-4AC3-927C-0B24B1967925} = {10F5953B-2333-492A-907E-C6B8104F5CAC}
+		{705E069F-98B8-41A8-B59A-8B6D281D08DE} = {10F5953B-2333-492A-907E-C6B8104F5CAC}
+		{71F701F3-6263-4C08-9D21-3C5BDD124A36} = {10F5953B-2333-492A-907E-C6B8104F5CAC}
+	EndGlobalSection
+EndGlobal
